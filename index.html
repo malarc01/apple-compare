@@ -13,20 +13,20 @@
   <h1>What to Eat</h1>
   <p>Fruit</p>
   <select name="" id="compare-one" onchange="showSelected()">
-  <option value="coconut">coconut</option>
-  <option value="blueberry">blueberry</option>
-  <option value="grapefruit">grapefruit</option>
-  <option value="apple">apple</option>
-  <option value="mango">mango</option>
-  <option value="cantaloupe">cantaloupe</option>
-  <option value="raisins">raisins</option>
+    <option value="coconut">coconut</option>
+    <option value="blueberry">blueberry</option>
+    <option value="grapefruit">grapefruit</option>
+    <option value="apple">apple</option>
+    <option value="mango">mango</option>
+    <option value="cantaloupe">cantaloupe</option>
+    <option value="raisins">raisins</option>
   </select>
 
-  <p id="demo"></p>
+  <p id="output"></p>
 
   <script>function showSelected(){
-    var x = document.getElementById("compare-one").value;
-    document.getElementById('demo').innerHTML = 'You selected: ' + x;
+    var selectValue = document.getElementById("compare-one").value;
+    document.getElementById('output').innerHTML = 'You selected: ' + selectValue;
   }</script>
 
 
